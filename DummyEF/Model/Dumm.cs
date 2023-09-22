@@ -11,5 +11,6 @@ namespace DummyEF.Model
         public string Email { get; set; } = null!;
         public string Gender { get; set; } = null!;
         public string IpAddress { get; set; } = null!;
+        public string Dummy { get; set; }
     }
 }

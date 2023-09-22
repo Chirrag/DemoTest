@@ -20,7 +20,7 @@ namespace DummyEF.Controllers
 
 
         [HttpGet]
-        public async Task<IEnumerable<Dumm>> GetALL()
+        public async Task<IEnumerable<Dumm>> GetAllRecordInmyRESTAPI()
         {
             var data = await _dummyDB.Dumms.ToListAsync();
 
